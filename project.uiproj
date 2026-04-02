@@ -1,0 +1,6 @@
+{
+  "Name": "BTA02 Mock Assessment2",
+  "ProjectType": "Process",
+  "Description": "1. Email containing New Customer Request, then proceed.\r\n2. Data is either in pdf or body.\r\n3. Extract data from pdf or body like \r\n     - Date of Birth → yyyy-MM-dd\r\n     - Phone → Digits only\r\n     - Country → Uppercase\r\n     -  Mandatory Fields: Customer Name, Email ID, Request Type\r\n4. Move the folder according to following condition:\r\n    - All fields valid → Success\r\n    - Missing mandatory field → Business Exception\r\n    - PDF read / Outlook failure → System Exception\r\n5. log and send it.",
+  "MainFile": "Main.xaml"
+}

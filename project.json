@@ -1,0 +1,60 @@
+{
+  "name": "BTA02 Mock Assessment2",
+  "projectId": "69a5ba89-f775-4360-b214-175d794ac2cf",
+  "description": "1. Email containing New Customer Request, then proceed.\r\n2. Data is either in pdf or body.\r\n3. Extract data from pdf or body like \r\n     - Date of Birth → yyyy-MM-dd\r\n     - Phone → Digits only\r\n     - Country → Uppercase\r\n     -  Mandatory Fields: Customer Name, Email ID, Request Type\r\n4. Move the folder according to following condition:\r\n    - All fields valid → Success\r\n    - Missing mandatory field → Business Exception\r\n    - PDF read / Outlook failure → System Exception\r\n5. log and send it.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.Mail.Activities": "[2.6.10]",
+    "UiPath.PDF.Activities": "[3.25.2]",
+    "UiPath.System.Activities": "[25.12.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.186.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "16a1a4fe-c10b-4cea-81eb-6bf2da670c10",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

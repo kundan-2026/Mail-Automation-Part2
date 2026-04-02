@@ -1,0 +1,7 @@
+﻿Timestamp,Email Subject,Customer Name,Request Type,Status," Error Message"
+2026-02-17 12:02,New Customer Request Received in attachement,Laxmi Yadav,,BRE,Value missing
+2026-02-17 12:02,New Customer Request For update,,Update Account,BRE,Value missing
+2026-02-17 12:02,New Customer Request Received,Laxman Singh,Update Account Number,BRE,Value missing
+2026-02-17 12:02,New Customer Request Received,Amit Verma,,BRE,Value missing
+2026-02-17 12:02,New Customer Request Received,Amit Verma,"New Account  ",Success,NA
+2026-02-17 12:02,New Customer Request – Details Inside,"Rahul Sharma ","New Account  ",Success,NA
